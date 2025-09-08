@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halaman Utama SIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/63ac7831-0f4e-420f-828b-12ba1121f433.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: white;
+        }
+        header {
+            background: rgba(34, 139, 34, 0.8);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .sawit-image {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #228b22; /* Hijau gelap untuk tema kebun */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #006400; /* Hijau lebih gelap saat hover */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(34, 139, 34, 0.8);
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+		<h1>di Platform Monitoring SIO</h1>
+        <p>Platform Inovasi dan Optimalisasi Kebun Sawit</p>
+    </header>
+    <div class="container">
+        <img
+            class="sawit-image"
+            src="https://yt3.googleusercontent.com/zcsjPfX0msBeWdM6QtzdsEz23RJdnvPxA1-PX58e-dOqCdzpbu_0mOE0Iurl5arXv41XZYgxSA=s900-c-k-c0x00ffffff-no-rj"
+            alt="Gambar tampilan depan kebun sawit tropis di Indonesia dengan batang sawit kelapa tinggi menjulang, daun hijau lush yang lebat dan menyegarkan, sinar matahari pagi yang lembut menembus dedaunan, dan tanah subur hitam di bawahnya untuk suasana alami dan produktif"
+        />
+ 
+        <p>Monitoring masa berlaku SIO di PKS dan Kebun.</p>
+        <a href="login.php" class="button">Login</a>
+
+    </div>
+    <footer>
+        <p>2025 SIO - Inovasi Kebun Sawit. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
